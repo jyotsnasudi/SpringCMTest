@@ -1,0 +1,20 @@
+
+
+public class SpringCMTest()
+{
+WebDriver
+  
+  public void SpringCMLogin()
+  {
+
+  Driver= new Friefoxdriver();
+  Driver.manage().window().maximize();
+  Driver.manage().timeouts().implicitlywait(20, TimeUnit.SECONDS);
+  Driver.get("https://login.springcm.com/Login");
+  AssertTrue(getTitle().contains("img","Homepage is verified");
+  Driver.findElement(By.id("LoginEmail").sendKeys(""));
+  AssertTrue(
+  Driver.findElement(By.id("Password").sendKeys(""));
+  AssertTrue(
+  Driver.findElement(By.id("
+
